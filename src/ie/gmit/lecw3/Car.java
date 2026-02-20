@@ -12,12 +12,11 @@ public class Car {
     float value;
 
     // Class Methods
-    void show(){
+    void show() {
         System.out.println(manufacturer);
     }
-    
-    void crash(){
+
+    void crash() {
         value = 0;
     }
-
 }
